@@ -12,11 +12,11 @@ public class CupHolder {
 
     public int dispenseCup() {
         quantity--;
-        return this.volume;
+        return volume;
     }
 
     public void refill(int amt){
-        quantity = amt;
+        quantity += amt;
     }
 
 }

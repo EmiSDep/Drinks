@@ -11,12 +11,13 @@ public class Syrup{
 
     }
 
-    public int dispense(int amt){
-
+    public String dispense(int amt){
+        liquidAmount -= amt;
+        return drinkName;
     }
 
     public int getVolume() {
-
+        return liquidAmount;
     }
 
 }
